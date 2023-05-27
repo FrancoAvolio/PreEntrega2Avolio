@@ -1,4 +1,4 @@
-
+import "./CartWidget.scss"
 const CartWidget = () => {
   return (
     <>

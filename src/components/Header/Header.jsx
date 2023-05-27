@@ -1,9 +1,10 @@
 import Navbar from "../Navbar/Navbar"
+import "./Header.scss"
 const Header = () => {
   return (
     <header className="header">
         <div className="header-container">
-            <h1 className="header-logo">LOGO</h1>
+            <a href="#" className="header-logo">LOGO</a>
             <Navbar/>
             </div>
     </header>

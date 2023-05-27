@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    .nav-link {
+            color: rgb(240, 234, 234);
+            font-size: 18px;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all linear 0.3s;
+        }
+}
+.nav-link:hover {
+    -webkit-text-decoration: underline aliceblue;
+    text-decoration: underline aliceblue;
+    color: aliceblue;
+}
