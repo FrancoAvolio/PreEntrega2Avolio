@@ -2,7 +2,7 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    .nav-link {
+    .nav-links {
             color: rgb(240, 234, 234);
             font-size: 18px;
             text-transform: uppercase;
@@ -10,7 +10,7 @@
             transition: all linear 0.3s;
         }
 }
-.nav-link:hover {
+.nav-links:hover {
     -webkit-text-decoration: underline aliceblue;
     text-decoration: underline aliceblue;
     color: aliceblue;

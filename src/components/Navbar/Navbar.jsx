@@ -4,10 +4,10 @@ const Navbar = () => {
   return (
     <div>
         <nav className="navbar">
-            <a href="#"className="nav-link">Calzado</a>
-            <a href="#"className="nav-link">Remeras</a>
-            <a href="#"className="nav-link">Jeans</a>
-            <a href="#"className="nav-link">Sweaters</a>
+            <a href="#"className="nav-links">Calzado</a>
+            <a href="#"className="nav-links">Remeras</a>
+            <a href="#"className="nav-links">Jeans</a>
+            <a href="#"className="nav-links">Sweaters</a>
             <CartWidget/>
         </nav>
     </div>
