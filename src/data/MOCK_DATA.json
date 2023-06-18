@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "nombre": "Crab - Meat Combo",
+    "precio": 11645,
+    "descripcion": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat",
+    "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+    "category": "panaderia",
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "nombre": "Soup - French Onion, Dry",
+    "precio": 17672,
+    "descripcion": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat",
+    "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+    "category": "panaderia",
+    "stock": 40
+  },
+  {
+    "id": 3,
+    "nombre": "Olives - Green, Pitted",
+    "precio": 7086,
+    "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium erat",
+    "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+    "category": "verduleria",
+    "stock": 27
+  },
+  {
+    "id": 4,
+    "nombre": "Gin - Gilbeys London, Dry",
+    "precio": 12706,
+    "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium erat",
+    "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+    "category": "perfumeria",
+    "stock": 8
+  },
+  {
+    "id": 5,
+    "nombre": "Lettuce - Red Leaf",
+    "precio": 5278,
+    "descripcion": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+    "category": "perfumeria",
+    "stock": 5
+  },
+  {
+    "id": 6,
+    "nombre": "Plastic Arrow Stir Stick",
+    "precio": 6650,
+    "descripcion": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+    "category": "panaderia",
+    "stock": 26
+  },
+  {
+    "id": 7,
+    "nombre": "Tomatoes - Grape",
+    "precio": 4570,
+    "descripcion": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+    "category": "perfumeria",
+    "stock": 46
+  },
+  {
+    "id": 8,
+    "nombre": "Cheese - Cottage Cheese",
+    "precio": 14583,
+    "descripcion": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+    "category": "carniceria",
+    "stock": 17
+  },
+  {
+    "id": 9,
+    "nombre": "Bread - Rosemary",
+    "precio": 5233,
+    "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+    "category": "panaderia",
+    "stock": 32
+  },
+  {
+    "id": 10,
+    "nombre": "Juice - Lagoon Mango",
+    "precio": 5963,
+    "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+    "category": "carniceria",
+    "stock": 19
+  },
+  {
+    "id": 11,
+    "nombre": "Rice - Long Graint",
+    "precio": 10482,
+    "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+    "category": "panaderia",
+    "stock": 17
+  },
+  {
+    "id": 12,
+    "nombre": "Liqueur Banana, Ramazzotti",
+    "precio": 7396,
+    "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+    "category": "panaderia",
+    "stock": 40
+  },
+  {
+    "id": 13,
+    "nombre": "Bread Roll Foccacia",
+    "precio": 2687,
+    "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+    "category": "verduleria",
+    "stock": 37
+  },
+  {
+    "id": 14,
+    "nombre": "Steampan - Foil - Ai",
+    "precio": 18950,
+    "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+    "category": "perfumeria",
+    "stock": 45
+  },
+  {
+    "id": 15,
+    "nombre": "Pastrami - Foil - Ai",
+    "precio": 12221,
+    "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+    "category": "verduleria",
+    "stock": 24
+  },
+  {
+    "id": 16,
+    "nombre": "Pizza Pizza Dough",
+    "precio": 13715,
+    "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+    "category": "carniceria",
+    "stock": 14
+  }
+]
