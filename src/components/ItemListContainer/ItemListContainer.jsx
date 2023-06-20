@@ -2,11 +2,12 @@
 import './ItemListContainer.scss';
 import ItemList from '../ItemList/ItemList';
 import { useProductos } from '../../hooks/useProductos';
+import { useParams } from 'react-router-dom';
 
 const ItemListContainer = () => {
   const { productos,loading } = useProductos();
   console.log(loading,productos);
-
+  
   return (
     <div className='item-container'>
       {

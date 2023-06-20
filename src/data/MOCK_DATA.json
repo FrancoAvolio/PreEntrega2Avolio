@@ -5,7 +5,7 @@
     "precio": 11645,
     "descripcion": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat",
     "img": "http://dummyimage.com/200x200.png/dddddd/000000",
-    "category": "panaderia",
+    "category": "calzado",
     "stock": 10
   },
   {
@@ -14,7 +14,7 @@
     "precio": 17672,
     "descripcion": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat",
     "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
-    "category": "panaderia",
+    "category": "calzado",
     "stock": 40
   },
   {
@@ -23,7 +23,7 @@
     "precio": 7086,
     "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium erat",
     "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
-    "category": "verduleria",
+    "category": "calzado",
     "stock": 27
   },
   {
@@ -32,7 +32,7 @@
     "precio": 12706,
     "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium erat",
     "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
-    "category": "perfumeria",
+    "category": "calzado",
     "stock": 8
   },
   {
@@ -41,7 +41,7 @@
     "precio": 5278,
     "descripcion": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
     "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
-    "category": "perfumeria",
+    "category": "remeras",
     "stock": 5
   },
   {
@@ -50,7 +50,7 @@
     "precio": 6650,
     "descripcion": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
     "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
-    "category": "panaderia",
+    "category": "remeras",
     "stock": 26
   },
   {
@@ -59,7 +59,7 @@
     "precio": 4570,
     "descripcion": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
     "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
-    "category": "perfumeria",
+    "category": "remeras",
     "stock": 46
   },
   {
@@ -68,7 +68,7 @@
     "precio": 14583,
     "descripcion": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
     "img": "http://dummyimage.com/200x200.png/dddddd/000000",
-    "category": "carniceria",
+    "category": "remeras",
     "stock": 17
   },
   {
@@ -77,7 +77,7 @@
     "precio": 5233,
     "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
     "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
-    "category": "panaderia",
+    "category": "jeans",
     "stock": 32
   },
   {
@@ -86,7 +86,7 @@
     "precio": 5963,
     "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
     "img": "http://dummyimage.com/200x200.png/dddddd/000000",
-    "category": "carniceria",
+    "category": "jeans",
     "stock": 19
   },
   {
@@ -95,7 +95,7 @@
     "precio": 10482,
     "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
     "img": "http://dummyimage.com/200x200.png/dddddd/000000",
-    "category": "panaderia",
+    "category": "jeans",
     "stock": 17
   },
   {
@@ -104,7 +104,7 @@
     "precio": 7396,
     "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
     "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
-    "category": "panaderia",
+    "category": "jeans",
     "stock": 40
   },
   {
@@ -113,7 +113,7 @@
     "precio": 2687,
     "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
     "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
-    "category": "verduleria",
+    "category": "sweaters",
     "stock": 37
   },
   {
@@ -122,7 +122,7 @@
     "precio": 18950,
     "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
     "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
-    "category": "perfumeria",
+    "category": "sweaters",
     "stock": 45
   },
   {
@@ -131,7 +131,7 @@
     "precio": 12221,
     "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
     "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
-    "category": "verduleria",
+    "category": "sweaters",
     "stock": 24
   },
   {
@@ -140,7 +140,7 @@
     "precio": 13715,
     "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
     "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
-    "category": "carniceria",
+    "category": "sweaters",
     "stock": 14
   }
 ]
