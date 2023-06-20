@@ -7,12 +7,11 @@ const ItemDetailContainer = () => {
   const [item, setItem] = useState(null);
   const [loading, setLoading] = useState(true);
   const { itemId } = useParams();
-  console.log(item)
-  console.log(itemId)
+  console.log(item);
+  console.log(itemId);
 
   useEffect(() => {
     setLoading(true);
-
     pedirDatos()
       .then((res) => {
         setItem(res.find((prod) => prod.id === Number(itemId)));

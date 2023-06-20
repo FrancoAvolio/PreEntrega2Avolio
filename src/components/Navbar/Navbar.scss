@@ -1,17 +1,17 @@
 .navbar {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    .nav-links {
-            color: rgb(240, 234, 234);
-            font-size: 18px;
-            text-transform: uppercase;
-            text-decoration: none;
-            transition: all linear 0.3s;
-        }
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  .nav-links {
+    color: rgb(240, 234, 234);
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all linear 0.3s;
+  }
 }
 .nav-links:hover {
-    -webkit-text-decoration: underline aliceblue;
-    text-decoration: underline aliceblue;
-    color: aliceblue;
+  -webkit-text-decoration: underline aliceblue;
+  text-decoration: underline aliceblue;
+  color: aliceblue;
 }

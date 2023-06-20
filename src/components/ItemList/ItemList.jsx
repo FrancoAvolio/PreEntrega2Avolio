@@ -7,7 +7,7 @@ const ItemList = ({ items }) => {
       <hr />
       <div className="row">
         {items.map((prod) => (
-          <ItemCard key={prod.id} {...prod}/>
+          <ItemCard key={prod.id} {...prod} />
         ))}
       </div>
     </div>

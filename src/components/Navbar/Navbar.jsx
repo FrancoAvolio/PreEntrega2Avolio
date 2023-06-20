@@ -1,5 +1,5 @@
-import CartWidget from "../CartWidget/CartWidget"
-import "./Navbar.scss"
+import CartWidget from '../CartWidget/CartWidget';
+import './Navbar.scss';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -25,6 +25,6 @@ const Navbar = () => {
       </nav>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
