@@ -21,7 +21,6 @@ const Navbar = () => {
         <Link to="/productos/sweaters" className="nav-links">
           Sweaters
         </Link>
-        <CartWidget />
       </nav>
     </div>
   );

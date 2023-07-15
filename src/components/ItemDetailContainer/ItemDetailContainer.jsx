@@ -1,28 +1,31 @@
 import { useState, useEffect } from 'react';
-import { pedirDatos } from '../../helpers/pedirDatos';
 import { useParams } from 'react-router-dom';
 import ItemDetail from '../ItemDetail/ItemDetail';
+import { Spinner } from 'react-bootstrap';
+import { doc, getDoc } from 'firebase/firestore';
+import { db } from '../../firebase/config';
 
 const ItemDetailContainer = () => {
   const [item, setItem] = useState(null);
   const [loading, setLoading] = useState(true);
   const { itemId } = useParams();
-  console.log(item);
-  console.log(itemId);
-
   useEffect(() => {
     setLoading(true);
-    pedirDatos()
-      .then((res) => {
-        setItem(res.find((prod) => prod.id === Number(itemId)));
+    const itemRef = doc(db, 'productos', itemId);
+    getDoc(itemRef)
+      .then((doc) => {
+        setItem({
+          ...doc.data(),
+          id: doc.id,
+        });
       })
-      .catch((err) => console.log(err))
+      .catch((e) => console.log(e))
       .finally(() => setLoading(false));
   }, [itemId]);
 
   return (
     <div className="container my-5">
-      {loading ? <h2>Cargando...</h2> : <ItemDetail {...item} />}
+      {loading ? <Spinner /> : <ItemDetail {...item} />}
     </div>
   );
 };

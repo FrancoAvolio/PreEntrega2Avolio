@@ -1,15 +1,14 @@
 import './ItemListContainer.scss';
 import ItemList from '../ItemList/ItemList';
 import { useProductos } from '../../hooks/useProductos';
-import { useParams } from 'react-router-dom';
+import { Spinner } from 'react-bootstrap';
 
 const ItemListContainer = () => {
   const { productos, loading } = useProductos();
-  console.log(loading, productos);
 
   return (
     <div className="item-container">
-      {loading ? <h2>Cargando..</h2> : <ItemList items={productos} />}
+      {loading ? <Spinner/> : <ItemList items={productos} />}
     </div>
   );
 };
