@@ -5,7 +5,8 @@ import { BsTrash } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 const Cart = () => {
-  const { cart, totalCompra, vaciarCarrito, eliminarDelCarrito } = useContext(CartContext);
+  const { cart, totalCompra, vaciarCarrito, eliminarDelCarrito } =
+    useContext(CartContext);
 
   return (
     <div className="container cart-total">
@@ -45,6 +46,9 @@ const Cart = () => {
             <button onClick={vaciarCarrito} className="btn btn-danger my-1">
               Vaciar el carrito
             </button>
+            <Link className="btn btn-success m-1" to="/checkout">
+              Ir a checkout
+            </Link>
           </div>
         </>
       )}
