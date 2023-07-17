@@ -5,8 +5,10 @@ import CartWidget from '../CartWidget/CartWidget';
 const Header = () => {
   return (
     <header className="header fixed-top">
-      <p className='banner-top'>Envío gratis a todo el país desde $33.000 ARS | 3 cuotas sin interés VISA,
-      MasterCard </p>
+      <p className="banner-top">
+        Envío gratis a todo el país desde $33.000 ARS | 3 cuotas sin interés
+        VISA, MasterCard{' '}
+      </p>
       <div className="header-container">
         <Link to="/" className="header-logo">
           <img
