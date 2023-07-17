@@ -2,11 +2,11 @@ import { useState } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 import './Checkout.scss';
 import { useCartContext } from '../../context/CartContext';
-import { collection, addDoc} from 'firebase/firestore';
+import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../../firebase/config';
 
 export const Checkout = () => {
-  const { cart, totalCompra } = useCartContext();
+  const { cart, totalCompra, vaciarCarrito } = useCartContext();
   const [orderId, setOrderId] = useState(null);
   const [values, setValues] = useState({
     nombre: '',
@@ -21,6 +21,18 @@ export const Checkout = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (values.email.length === 0) {
+      alert('El mail es obligatorio');
+      return;
+    }
+    if (values.direccion.length === 0) {
+      alert('La direccion es obligatoria');
+      return;
+    }
+    if (values.nombre.length === 0) {
+      alert('El nombre es obligatorio');
+      return;
+    }
     const orden = {
       cliente: values,
       items: cart,
@@ -29,7 +41,8 @@ export const Checkout = () => {
     const ordersRef = collection(db, 'orders');
     addDoc(ordersRef, orden)
       .then((doc) => {
-        setOrderId(doc.id)
+        setOrderId(doc.id);
+        vaciarCarrito();
       })
       .catch((err) => console.log(err));
   };
@@ -42,14 +55,16 @@ export const Checkout = () => {
           <p>
             Tu numero de compra es: <strong>{orderId}</strong>
           </p>
-          <Link to = "/" className='btn btn-primary'>Volver al inicio</Link>
+          <Link to="/" className="btn btn-primary">
+            Volver al inicio
+          </Link>
         </div>
       </div>
     );
   }
 
   if (cart.length === 0) {
-    return <Navigate to="/" />
+    return <Navigate to="/" />;
   }
 
   return (
