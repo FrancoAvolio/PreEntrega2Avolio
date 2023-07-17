@@ -2,7 +2,7 @@ import { useContext, useState } from 'react';
 import ItemCount from '../ItemCount/ItemCount';
 import './ItemDetail.scss';
 import { CartContext } from '../../context/CartContext';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 const ItemDetail = ({
   id,
   nombre,
@@ -14,6 +14,7 @@ const ItemDetail = ({
 }) => {
   const { agregarAlCarrito, isInCart } = useContext(CartContext);
   const [cantidad, setCantidad] = useState(1);
+  const navigate = useNavigate();
 
   const handleAgregar = () => {
     const item = {
@@ -28,7 +29,9 @@ const ItemDetail = ({
     };
     agregarAlCarrito(item);
   };
-
+  const handleVolver = () => {
+    navigate(-1);
+  };
   return (
     <div className="container item-detail">
       <h2>{nombre}</h2>
@@ -47,6 +50,10 @@ const ItemDetail = ({
           handleAgregar={handleAgregar}
         />
       )}
+      <hr />
+      <button onClick={handleVolver} className="btn btn-primary">
+        Volver
+      </button>
     </div>
   );
 };
